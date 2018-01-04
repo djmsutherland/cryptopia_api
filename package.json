@@ -1,0 +1,25 @@
+{
+  "name": "cryptopia_api",
+  "version": "1.0.0",
+  "description": "Node wrapper for Cryptopia's private and public API.",
+  "main": "build/index.js",
+  "author": "Dan Sutherland",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel library -d build"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "https": "^1.0.0",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
